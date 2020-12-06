@@ -42,7 +42,7 @@ more information for the user. They will the be -
 
 #### Skeleton:
 My plan is to use the home page as a window shopping element to actively entice users toward the other areas of the site. Users 
-that entere the site find themselves on the home page and will naturally begin to scroll(encouraged by the content hinting concpet). 
+that enter the site find themselves on the home page and will naturally begin to scroll(encouraged by the content hinting concpet). 
 They will discover sections that will not not only teach them what the site has to offer but actively engage them to visit the different areas.
 
 ##### Some examples-
@@ -51,6 +51,8 @@ They will discover sections that will not not only teach them what the site has 
 
 
 #### Surface:
+
+INSERT WIREFRAMES AND COLORS USED
 
 
 ### User Stories:

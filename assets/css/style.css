@@ -1,0 +1,14 @@
+/*---Navigation Bar---*/
+
+.navbar-brand  img {
+    height: 48px;
+    position: auto;
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.fa-shopping-basket {
+    font-size: 24px;
+    color: #2B363B;
+}
