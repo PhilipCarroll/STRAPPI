@@ -1,15 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
 /*---Navigation Bar---*/
 
 .navbar-brand img {
-    height: 48px;
+    height: 52px;
 }
 
 .nav-cart {
     width: 52px;
 }
 
+.dropdown-menu, li {
+    margin: auto;
+}
+
+.nav-link {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #2b363b:
+}
+
 /*---General Colors---*/
 
 .navbar {
-    background-color: #F3F7F4;
+    background-color: #F5F5F5;
+}
+
+
+/*---Footer---*/
+
+footer {
+    background: #1A2123;
+    color: #F5F5F5;
 }

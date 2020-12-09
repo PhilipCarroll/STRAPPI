@@ -127,7 +127,9 @@ the watch world so I can enjoy my hobby. I want to build a relationship with the
 ## Credits
 
 ### Online Resources Used
-#### A lot of YouTube
-* Links to any videos/channels that helped me through sections I struggled with. 
+#### A Lot of YouTube.
+* Links to any videos/channels/sites that helped me through sections I struggled with. 
 [Academind Channel](https://www.youtube.com/watch?v=23bpce-5s8I)
+#### Sites Used for Research While Planning.
+[Outbrain](https://www.outbrain.com/help/advertisers/why-ecommerce-site-should-have-blog/)
 ---
