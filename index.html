@@ -1,104 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.2/sandstone/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>STRAPPI - Strap in for a good time</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.2/sandstone/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>STRAPPI - Strap in for a good time</title>
 </head>
+
 <body>
-<header>
-<!---- Navigation ---->
+    <header>
+        <!---- Navigation ---->
 
-<nav class="navbar navbar-light navbar-expand-md">
+        <nav class="navbar navbar-light navbar-expand-md">
 
-<!---- Logo ---->
+            <!---- Logo ---->
 
-    <a href="index.html" class="navbar-brand">
-        <img src="assets/images/strappi_logo.png" alt="">
-    </a>
+            <a href="index.html" class="navbar-brand">
+                <img src="assets/images/strappi_logo.png" alt="">
+            </a>
 
-<!---- Cart Icon (Possible feature) ---->
+            <!---- Cart Icon (Possible feature) ---->
 
-    
-<!---- Toggler Button ---->
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+            <!---- Toggler Button ---->
 
-<!---- Menu ---->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Shop
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Straps</a>
-          <a class="dropdown-item" href="#">Accessories</a>
-          <a class="dropdown-item" href="#">Watches</a>
+            <!---- Menu ---->
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Shop
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Straps</a>
+                            <a class="dropdown-item" href="#">Accessories</a>
+                            <a class="dropdown-item" href="#">Watches</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#MODALPOPUP">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </nav>
+    </header>
+
+    <!---- Footer Section ---->
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+
+                <!---- Newsletter CTA ---->
+
+                <div class="col-sm-12 col-md-6 col-lg-4 newsletter">
+                    <div class="newsletter-text-icons col-sm-12 col-md-6 col-lg-4">
+                        <h3 class="col-8 newsletter-text newsletter-text-icons-inline">Sign up to our Newsletter for the Latest News and Exclusive Offers!</h3>
+
+                        <div class="newsletter-icons col-4 newsletter-text-icons-inline" >
+                            <i class="fas fa-angle-double-down fa-3x"></i>
+                            <i class="fas fa-envelope-open-text fa-3x"></i>
+                        </div>
+                    </div>
+
+                    <div class="newsletter-signup text-center">
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" placeholder="Email:" required>
+                        <button type="submit">SEND!</button>
+                    </div>
+                </div>
+
+                <!---- Footer Navigation ---->
+
+                <div class="col-sm-12 col-md-6 col-lg-4 footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="about.html">About</a>
+                    <a href="#MODALPOPUP">Contact</a>
+                </div>
+
+                <!---- Footer Socials ---->
+
+                <div class="col-sm-12 col-md-6 col-lg-4 social-links">
+                    <i class="fab fa-facebook-square fa-2x"><a href="facebook.com"><span class="sr-only">Facebook
+                                link</span></a></i>
+                    <i class="fab fa-twitter fa-2x"><a href="twitter.com"><span class="sr-only">Twitter
+                                link</span></a></i>
+                    <i class="fab fa-instagram fa-2x"><a href="instagram.com"><span class="sr-only">Instagram
+                                link</span></a></i>
+                    <i class="fab fa-youtube fa-2x"><a href="youtube.com"><span class="sr-only">YouTube
+                                link</span></a></i>
+                </div>
+
+                <!---- Copyrigth Text ---->
+
+                <div class="col-12 copyright-text">
+                    <p>Site Design and Development by Philip Carroll</p>
+                </div>
+            </div>
         </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Blog</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#MODALPOPUP">Contact</a>
-      </li>
-    </ul>
-  </div>
+    </footer>
 
-
-</nav>
-</header>
-
-<footer>
-<div class="container-fluid">
-    <div class="newsletter">
-            <h3>Sign up to our Newsletter for the Latest News and Exclusive Offers!</h3>
-        <div class="newsletter-icons">
-            <i class="fas fa-angle-double-down"></i>
-            <i class="fas fa-envelope-open-text"></i>
-        </div>
-        <div class="newsletter-signup">
-            <label for="email"></label> 
-            <input type="email" name="email" id="email" placeholder="Email:" required>
-            <button type="submit">SEND!</button>
-        </div>
-    </div>
-    <div class="footer-links">
-        <a href="index.html">Home</a>
-        <a href="shop.html">Shop</a>
-        <a href="blog.html">Blog</a>
-        <a href="about.html">About</a>
-        <a href="#MODALPOPUP">Contact</a>
-    </div>
-    <div class="social-links">
-        <i class="fab fa-facebook-square"><a href="facebook.com"><span class="sr-only">Facebook link<span></a></i>
-        <i class="fab fa-twitter"><a href="facebook.com"><span class="sr-only">Twitter link<span></a></i>
-        <i class="fab fa-instagram"><a href="facebook.com"><span class="sr-only">Instagram link<span></a></i>
-        <i class="fab fa-youtube"><a href="facebook.com"><span class="sr-only">YouTube link<span></a></i>
-    </div>
-    <div class="copyright-text">
-        <p>Site Design and Development by Philip Carroll</p>
-    </div>
-</div>
-</footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>

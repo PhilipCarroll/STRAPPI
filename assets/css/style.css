@@ -18,7 +18,7 @@
     font-family: "Rubik", sans-serif;
     font-weight: 500;
     letter-spacing: 3px;
-    color: #2b363b:
+    color: #2b363b;
 }
 
 /*---General Colors---*/
@@ -31,6 +31,102 @@
 /*---Footer---*/
 
 footer {
+    position: absolute;
+    bottom: 0;
     background: #1A2123;
     color: #F5F5F5;
+    max-height: 420px;
 }
+
+input {
+    border-radius: 12px 80px 80px 7px;
+}
+
+/*---Copyright Text---*/
+
+.copyright-text {
+    font-family: "Rubik" ,sans-serif;
+    box-sizing: border-box;
+    color: rgba(245,245,245,0.75);
+    margin: 0 auto;
+    padding-top: 16px;
+    display: block;
+    text-align: center;
+    font-size: 8px;
+    font-weight: 300;
+}
+
+/*---Footer Links---*/
+
+
+.footer-links {
+    margin: 24px 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: rgba(245,245,245,0.6);
+    display: block;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: auto;
+}
+
+/*---Footer Social Links---*/
+
+.social-links {
+    text-align: center;
+    width: auto;
+    margin: auto;
+    letter-spacing: 15px;
+    color: rgba(245,245,245,.8);
+}
+
+/*---Newsletter Signup---*/
+
+.newsletter-text {
+    min-width: 33%;
+    max-width: 275px;
+    max-height: 180px;
+    display: block;
+    text-align: center;
+    margin: 15px 15px;
+    color: rgba(245,245,245,.8);
+}
+
+.newsletter-text-icons-inline {
+    display: inline-block;
+}
+
+.newsletter-text-icons-inline i {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.newsletter-signup {
+    font-family: "Rubik", sans-serif;
+}
+
+.footer-div {
+    max-height: 200px;
+}
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
