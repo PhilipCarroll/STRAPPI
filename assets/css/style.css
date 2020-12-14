@@ -27,27 +27,20 @@
     background-color: #F5F5F5;
 }
 
-
 /*---Footer---*/
 
 footer {
-    position: absolute;
-    bottom: 0;
-    background: #1A2123;
-    color: #F5F5F5;
-    max-height: 420px;
+    background-color: #2a4651;
+    font-family: "Rubik" ,sans-serif;
+    color: rgba(229, 229, 229,0.75);
+    padding: 2rem 2rem .5rem;
 }
 
-input {
-    border-radius: 12px 80px 80px 7px;
-}
 
 /*---Copyright Text---*/
 
 .copyright-text {
-    font-family: "Rubik" ,sans-serif;
     box-sizing: border-box;
-    color: rgba(245,245,245,0.75);
     margin: 0 auto;
     padding-top: 16px;
     display: block;
@@ -56,61 +49,42 @@ input {
     font-weight: 300;
 }
 
-/*---Footer Links---*/
+/*---Footer Navigation---*/
 
-
-.footer-links {
-    margin: 24px 0;
+.footer-navigation {
+    color:  rgba(229, 229, 229,0.75);
 }
 
-.footer-links a {
-    text-decoration: none;
-    color: rgba(245,245,245,0.6);
-    display: block;
-    text-align: center;
-    letter-spacing: 3px;
-    padding: auto;
+/*---Social Link section---*/
+
+
+.social-links i {
+    padding: .6rem;
 }
 
-/*---Footer Social Links---*/
+.fa-facebook-square {
+    color: #5373b8;
+}
 
-.social-links {
-    text-align: center;
-    width: auto;
+.fa-twitter {
+    color: #00acee;
+}
+
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-youtube {
+    color: #fa4943;
+}
+
+.newsletter {
+    max-width: 280px;
     margin: auto;
-    letter-spacing: 15px;
-    color: rgba(245,245,245,.8);
-}
-
-/*---Newsletter Signup---*/
-
-.newsletter-text {
-    min-width: 33%;
-    max-width: 275px;
-    max-height: 180px;
-    display: block;
-    text-align: center;
-    margin: 15px 15px;
-    color: rgba(245,245,245,.8);
-}
-
-.newsletter-text-icons-inline {
-    display: inline-block;
-}
-
-.newsletter-text-icons-inline i {
-    display: block;
-    text-align: center;
-    padding: 10px;
-    margin: 10px auto;
-}
-
-.newsletter-signup {
-    font-family: "Rubik", sans-serif;
-}
-
-.footer-div {
-    max-height: 200px;
 }
 
 
