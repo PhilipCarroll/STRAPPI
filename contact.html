@@ -62,7 +62,8 @@
                         <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link current" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                        <a class="nav-link current" href="contact.html">Contact<span
+                                class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
@@ -71,30 +72,57 @@
         </nav>
     </header>
 
+    <!-- Contact Form-->
+
+    <div class="container-fluid contact-page">
+        <div class="row">
+            <div>
+                <img src="assets/images/Oris_blog.jpg" alt="Braun Watch">
+            </div>
+            <div class="contact-form  col-sm-10 col-md-8 col-lg-6">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control bg-input" id="name" placeholder="Full Name:">
+                </div>
+                <div class="mb-3">
+                    <label for="email_contact" class="form-label">Email</label>
+                    <input type="email" class="form-control bg-input" id="email_contact" placeholder="email@address.com">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Your Message</label>
+                    <textarea id="message" class="form-control bg-input" placeholder="Write here..." rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                    <button class="contact-button"><span>Send Message</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!---- Footer Section ---->
 
 
     <footer>
-        <div class="container-fluid padding">
+        <div class="container-fluid mt-auto padding">
             <div class="row text-center">
 
                 <!---- Newsletter CTA ---->
 
                 <div class="col-md-4 newsletter align-self-center">
-                    
-                        <h3>Sign up to our Newsletter for the
-                            Latest News and Exclusive Offers!</h3>
-<!-- Wanted to add these beside the Newsletter CTA text but coul d not position them as desired at ALLLL!!
+
+                    <h3>Sign up to our Newsletter for the
+                        Latest News and Exclusive Offers!</h3>
+                    <!-- Wanted to add these beside the Newsletter CTA text but coul d not position them as desired at ALLLL!!
                             <i class="fas fa-angle-double-down fa-3x"></i>
                             <i class="fas fa-envelope-open-text fa-3x"></i>
-                        -->                     
-                        <label for="email"></label>
-                        <input type="email" name="email" id="email" placeholder="Email:" required>
-                        <button type="submit">OK!</button>
-                    
+                        -->
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="Email:" required>
+                    <button type="submit">OK!</button>
+
                 </div>
 
-                
+
                 <!---- Footer Navigation ---->
 
                 <div class="col-md-4 align-self-center">
@@ -107,12 +135,12 @@
                     </ul>
                 </div>
 
-                
+
                 <!---- Footer Socials ---->
 
                 <div class="col-md-4 social-links align-self-center">
                     <h3>
-                        Follow Us! 
+                        Follow Us!
                     </h3>
                     <i class="fab fa-facebook-square fa-2x"><a href="facebook.com"><span class="sr-only">Facebook
                                 link</span></a></i>
@@ -123,13 +151,13 @@
                     <i class="fab fa-youtube fa-2x"><a href="youtube.com"><span class="sr-only">YouTube
                                 link</span></a></i>
                 </div>
-                
+
             </div>
-                <!---- Copyrigth Text ---->
-            
-                <div class="col-12 copyright-text">
-                    <p>&copy; Site Design and Development by Philip Carroll</p>
-                </div>
+            <!---- Copyrigth Text ---->
+
+            <div class="col-12 copyright-text">
+                <p>&copy; Site Design and Development by Philip Carroll</p>
+            </div>
         </div>
     </footer>
 
