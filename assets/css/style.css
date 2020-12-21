@@ -40,8 +40,153 @@ a:hover {
     transition: 0.35s;
 }
 
-/*---General Colors---*/
 
+
+
+/*---Home Page---*/
+
+
+.shipping {
+    background-color: rgba(229, 229, 229,0.75);
+    color: #14213D;
+}
+
+.shipping h3 {
+    padding: 6px 20px 16px;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+
+.shipping i {
+    font-size: 1.2rem;
+    padding: 18px 4px 6px;
+}
+
+/*---Blog Section---*/
+
+.blog-section {
+    margin: 0;
+    padding: 0;
+}
+
+.blog-section img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-section button {
+    display: inline;
+    padding: 4px 16px;
+    font-size: 12px;
+    margin-left: 8px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #fca311;
+    border-bottom: 3px;
+    border-radius: 6px;
+    box-shadow: 0 3px #999;
+}
+.blog-section h3 {
+    padding: 4px 6px;
+}
+
+/*---Product Section---*/
+
+.product-heading {
+    margin: 0;
+    padding: 0;
+}
+
+.product-heading h3 {
+    text-align: center;
+    background-color: rgba(229, 229, 229,0.75);
+    color: #14213D;
+    font-size: 2rem;
+    padding: 24px 0;
+}
+
+/*---Contact Page---*/
+
+.contact-page {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.contact-page img {
+    width: 100%;
+    min-width: 500px;
+    height: auto;
+    display: block;
+}
+
+.contact-form {
+    width: 90%;
+    position: fixed;
+    color: rgba(229, 229, 229, 0.75);
+    background: rgba(0, 0, 0, 0.3);
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: 0 0 12px #3d3d3d;
+}
+
+.contact-button {
+    display: inline;
+    padding: 4px 16px;
+    font-size: 12px;
+    margin-left: 8px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #fca311;
+    border-bottom: 3px;
+    border-radius: 6px;
+    box-shadow: 0 3px #999;
+}
+
+.bg-input {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
+/*---About Page---*/
+
+.about-img {
+    margin: 0;
+    padding: 0;
+}
+
+.about-img img {
+    width: 170%;
+    height: auto;
+}
+
+.about-text {
+    width: 90%;
+    position: absolute;
+    color: rgba(229, 229, 229, 0.75);
+    background: rgba(0, 0, 0, 0.7);
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 25px 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: 0 0 12px #3d3d3d;
+}
+
+.about-text h3 {
+    padding: 8px;
+}
 
 
 /*---Footer---*/
@@ -168,85 +313,6 @@ footer {
   transform: translateY(4px);
 }
 
-/*---Contact Page---*/
-
-.contact-page {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
-
-.contact-page img {
-    width: 100%;
-    min-width: 500px;
-    height: auto;
-    display: block;
-}
-
-.contact-form {
-    width: 90%;
-    position: absolute;
-    color: rgba(229, 229, 229, 0.75);
-    background: rgba(0, 0, 0, 0.3);
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    padding: 15px 20px;
-    box-sizing: border-box;
-    border-radius: 6px;
-    box-shadow: 0 0 12px #3d3d3d;
-}
-
-.contact-button {
-    display: inline;
-    padding: 4px 16px;
-    font-size: 12px;
-    margin-left: 8px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: #fca311;
-    border-bottom: 3px;
-    border-radius: 6px;
-    box-shadow: 0 3px #999;
-}
-
-.bg-input {
-    background: rgba(0, 0, 0, 0.6);
-}
-
-
-/*---About Page---*/
-
-.about-img {
-    margin: 0;
-    padding: 0;
-}
-
-.about-img img {
-    width: 170%;
-    height: auto;
-}
-
-.about-text {
-    width: 90%;
-    position: absolute;
-    color: rgba(229, 229, 229, 0.75);
-    background: rgba(0, 0, 0, 0.7);
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    padding: 25px 20px;
-    box-sizing: border-box;
-    border-radius: 6px;
-    box-shadow: 0 0 12px #3d3d3d;
-}
-
-.about-text h3 {
-    padding: 8px;
-}
 
 
 
