@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
+
+body {
+    font-family: "Rubik" ,sans-serif;
+}
+
 /*---Navigation Bar---*/
 
 .navbar {
@@ -89,6 +94,21 @@ a:hover {
     border-radius: 6px;
     box-shadow: 0 3px #999;
 }
+
+.blog-section button:hover {
+    color: #fca311;
+    background-color: #fff;
+    transition: 0.35s;
+    text-decoration: none;
+}
+
+.blog-section button:active {
+  background-color: #FCA311;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  text-decoration: none;
+}
+
 .blog-section h3 {
     padding: 4px 6px;
 }
@@ -98,6 +118,7 @@ a:hover {
 .product-heading {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .product-heading h3 {
@@ -105,7 +126,27 @@ a:hover {
     background-color: rgba(229, 229, 229,0.75);
     color: #14213D;
     font-size: 2rem;
+    margin: 0;
     padding: 24px 0;
+}
+
+.card {
+    margin: 20px auto 20px;
+    box-shadow: 0 0 8px #3d3d3d;
+}
+
+@media (min-width: 768px) {
+    .product-section {
+        display: flex;
+        margin: 20px 25px;
+        justify-content: center;
+        padding: 10px;
+    }
+}
+
+.product-section {
+    margin: 0 auto;
+    text-align: center;
 }
 
 /*---Contact Page---*/
@@ -151,6 +192,18 @@ a:hover {
     border-bottom: 3px;
     border-radius: 6px;
     box-shadow: 0 3px #999;
+}
+
+.contact-button button:hover {
+    color: #fca311;
+    background-color: #fff;
+    transition: 0.35s;
+}
+
+.contact-button button:active {
+  background-color: #FCA311;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .bg-input {
@@ -307,7 +360,7 @@ footer {
     transition: 0.35s;
 }
 
-.button:active {
+.newsletter button:active {
   background-color: #FCA311;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
