@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 
 body {
     font-family: "Rubik" ,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
 }
+
 
 /*---Navigation Bar---*/
 
@@ -26,22 +30,22 @@ body {
 
 .nav-link {
     font-family: "Rubik", sans-serif;
-    font-weight: 500;
+    font-weight: 200;
     letter-spacing: 3px;
     color: #E5E5E5;
 }
 
 
 a:hover {
-    color: #fca311;
+    color: #FDB035;
 }
 
 .current {
-    color: #FCA311;
+    color: #FDB035;
 }
 
 .current:hover {
-    color: rgba(252, 163, 17, 0.85);
+    color: rgba(253, 66, 2, 0.85);
     transition: 0.35s;
 }
 
@@ -67,11 +71,57 @@ a:hover {
     padding: 18px 4px 6px;
 }
 
+
+
+.carousel-caption button {
+    display: inline;
+    padding: 4px 16px;
+    font-size: 12px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #FDB035;
+    border-bottom: 3px;
+    border-radius: 6px;
+    box-shadow: 0 3px #999;
+}
+
+.carousel-caption button:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    color: #FDB035 !important;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.carousel-caption a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.carousel-caption a:hover {
+    color: #FDB035;
+}
+
 /*---Blog Section---*/
 
 .blog-section {
     margin: 0;
     padding: 0;
+}
+
+.blog-section h2 {
+    padding: 8px 8px 4px;
+}
+
+.blog-section p {
+    padding: 4px 8px 8px;
 }
 
 .blog-section img {
@@ -89,29 +139,27 @@ a:hover {
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #fca311;
+    background-color: #FDB035;
     border-bottom: 3px;
     border-radius: 6px;
     box-shadow: 0 3px #999;
 }
 
 .blog-section button:hover {
-    color: #fca311;
+    color: #FDB035;
     background-color: #fff;
     transition: 0.35s;
     text-decoration: none;
 }
 
 .blog-section button:active {
-  background-color: #FCA311;
+  background-color: #FDB035;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
   text-decoration: none;
 }
 
-.blog-section h3 {
-    padding: 4px 6px;
-}
+
 
 /*---Product Section---*/
 
@@ -148,6 +196,112 @@ a:hover {
     margin: 0 auto;
     text-align: center;
 }
+
+/*---Blog Page---*/
+
+.blog-post {
+    margin: 0;
+    padding: 0;
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-post h2 {
+    padding: 8px 8px 4px;
+}
+
+.blog-post p {
+    padding: 4px 8px 8px;
+    line-height: 24px;
+}
+
+
+
+@media (min-width: 768px) {
+    .blog-post h2 {
+        font-size: 1.4rem;
+        padding: 16px 16px 4px 4px;
+}
+    .blog-post p {
+        font-size: 0.7rem;
+        padding: 4px 16px 10px 4px;
+}
+
+}
+
+@media (min-width: 888px) {
+    .blog-post h2 {
+        font-size: 1.6rem;
+        padding: 16px 16px 4px 4px;
+}
+    .blog-post p {
+        font-size: 1.1rem;
+        padding: 4px 16px 10px 4px;
+}
+    .blog-post span button {
+        margin-top: 20px;
+}
+
+}
+
+@media (min-width: 1200px) {
+    .blog-post h2 {
+        font-size: 2rem;
+        padding: 16px 16px 4px 4px;
+}
+    .blog-post p {
+        font-size: 1.7rem;
+        padding: 4px 16px 10px 4px;
+        font-weight: 300;
+}
+}
+
+.blog-post button {
+    display: inline;
+    padding: 4px 16px;
+    font-size: 12px;
+    margin-left: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #FDB035;
+    border-bottom: 3px;
+    border-radius: 6px;
+    box-shadow: 0 3px #999;
+}
+
+.blog-post button:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    color: #FDB035 !important;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.blog-post a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.blog-post a:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    color: #FDB035 !important;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+
 
 /*---Contact Page---*/
 
@@ -188,22 +342,20 @@ a:hover {
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #fca311;
+    background-color: #FDB035;
     border-bottom: 3px;
     border-radius: 6px;
     box-shadow: 0 3px #999;
 }
 
 .contact-button button:hover {
-    color: #fca311;
-    background-color: #fff;
-    transition: 0.35s;
-}
-
-.contact-button button:active {
-  background-color: #FCA311;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+    background: #434343;
+    letter-spacing: 1px;
+    color: #FDB035 !important;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
 }
 
 .bg-input {
@@ -280,7 +432,7 @@ footer {
 }
 
 .list-unstyled a:hover {
-    color: #FCA311;
+    color: #FDB035;
     transition: 0.35s;
 }
 
@@ -321,7 +473,7 @@ footer {
 }
 
 .fa-youtube {
-    color: #fa4943;
+    color: #c4302b;
 }
 
 .social-links i:hover {
@@ -339,32 +491,29 @@ footer {
 
 
 .newsletter button {
-    display: inline;
-    padding: 4px 16px;
-    font-size: 12px;
-    margin-left: 8px;
-    cursor: pointer;
-    text-align: center;
+    color: #fff !important;
+    margin: 8px;
+    text-transform: uppercase;
     text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: #fca311;
-    border-bottom: 3px;
-    border-radius: 6px;
-    box-shadow: 0 3px #999;
+    background: #FDB035;
+    padding: 3px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
 }
 
 .newsletter button:hover {
-    color: #fca311;
-    background-color: #fff;
-    transition: 0.35s;
+    background: #434343;
+    letter-spacing: 1px;
+    color: #FDB035 !important;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
 }
 
-.newsletter button:active {
-  background-color: #FCA311;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
+
 
 
 
