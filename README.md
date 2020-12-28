@@ -102,14 +102,38 @@ the watch world so I can enjoy my hobby. I want to build a relationship with the
 
 ## Features
 ---
-
-
 ### Existing Features
+This site is built with the aim of constantly driving users back to the shop page to drive sales. 
+The home page is essentially one large image driven navigation tool. Each section encourages the user to visit 
+another part of the site and all end with a CTA button to allow ease of maneouverability from anywhere.
+* Bootstrap designed responsive Navbar with expanding menu section at the 'md' breakpoint.
+* Bootstrap Carousel slider with 3 images and active indicators. Implemented links on each image to direct traffic.
+* Shortened text blog post that leads users toward the blog page of the site with a CTA to read more.
+* Utilised Bootstrap cards to display product section on home page.
+* 3 section rersponsive footer with-
+    * Newsletter sign-up input field.
+    * Navigation links for the site mirroring those of the Navbar.
+    * Social links section.
+* Uniform buttons across the site with hover functionality.
 
 
-
-### Features to implement at a later date
-
+### Features to implement at a later date.
+---
+#### The Shop Page.
+While planning this project I wireframed the shop page for mobile. I soon came to the realisation that it would require more 
+than I was capable of at the time and likely 3 additional pages I had wanted to implement 3 sections that would load from tabs at the top 
+of the page without ahving to leave that page. I'll be honest, I still don't know how to do that but I didn;t look in to it much either! 
+#### Modal Contact pop up.
+I'd liek to implement a modal pop up as a means of allowing the custome rto fill out a contact form. This woul dallow me to remove one entire page from 
+the site and make the navigation much cleaner and refined.
+#### Instagram Feed.
+I think an instagram gallery/feed has several great functions. Ideally I can manage an instagram account along side the site showing off products and 
+highlighting customer 'wrist shots' which are very popular in the industry. It acts as an emotional trigger for sales and functions as another form of browsing. 
+#### Watches.
+Although this is a project I aim to use this site in the future. I'd liek to start out by wholeselling straps and accessories before eventually 
+hosting watches also once the brand becomes somewhat estabilished.
+#### Blog archive.
+Over time the site will inevitably become bulky with blog material. It would be nice to implement an archive.
 
 
 ## Technologies used
