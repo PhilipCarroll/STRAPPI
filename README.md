@@ -1,15 +1,12 @@
-# STRAPPI 
-STRAPPI is a website that will eventually function as an ECommerce platform. I want to showcase products with high quality imagery and 
-in time I will build in a blog. This will act as a means to consistently add new content and have the site index with SEO,
-driving organic traffic and giving me a mechanism to redirect consumers toward products on the site, increasing sales.
+# STRAPPi 
+STRAPPi is a website that will eventually function as an ECommerce platform. I want to showcase products with high quality imagery and in time I will build in a blog. This will act as a means to consistently add new content and have the site index with SEO, driving organic traffic and giving me a mechanism to redirect consumers toward products on the site, increasing sales.
 
-For this MileStone1 project I am focusing on the layout and overall style of the static frontend portion in order to develop the skills 
-I have acquired so far in the first Module of the Code Institute course.
+For this MileStone1 project I am focusing on the layout and overall style of the static frontend portion in order to develop the skills I have acquired so far during first module of the Code Institute course.
 
 
-## UX
-### User Experience Design (UXD)
-In order to develop my overall plan this project I used the 5 planes of User Experience Design-Strategy, Scope, Strucrture, Skeleton and Surface.
+## User Experience Design (UXD/UX)
+In order to develop my plan this project I used the 5 planes of User Experience Design-
+- Strategy, Scope, Strucrture, Skeleton and Surface.
 I aimed to answer a few key questions in each plane to guide my decision making process.
 
 #### Strategy:
@@ -42,13 +39,13 @@ more information for the user. They will the be -
 
 #### Skeleton:
 My plan is to use the home page as a window shopping element to actively entice users toward the other areas of the site. Users 
-that enter the site find themselves on the home page and will naturally begin to scroll(encouraged by the content hinting concpet). 
-They will discover sections that will not not only teach them what the site has to offer but actively engage them to visit the different areas.
+that enter the site find themselves on the home page and will naturally begin to scroll(encouraged by the design concept of content hinting). 
+They will discover sections that will allow them to learn who we are as a brand, what we offer on the site and actively engage them to visit the different areas.
 
 ##### Some examples-
-* A snippet of a blog article with an image with a "->Read More->" style CTA that will open up the article on the blog page.
+* A snippet of a blog article with an image with a "->Read More->" style CTA that will open up the article on the blog page. 
 * An image of a well known watch on a third party strap option accompanied by "->Shop Straps->" CTA button opening up the shop page.
-
+* The blog can be utilised to write reviews and articles on products we stock. A double-edged sales sword pitching the product under the guise of a blog while guiding them carefully back to the shop section.
 
 #### Surface:
 
@@ -61,9 +58,9 @@ related content. I want to engage visitors with high quality images and turn the
 I have decided to break my users in to 4 personas. Each persona defined will have a "First Time Visitor" and "Returning Visitor"
 story. 
 
-* I researched types of consumers in order to define my personas and have loosely based Users 1-4 on the 
-4 types outlined here - https://www.beyondthehedgecreative.com/4-different-types-consumers-market/
-I also added a 5th story, the Fantasy Shopper.  
+I researched types of consumers in order to define my personas and have loosely based Users 1-4 on the 4 types outlined here - 
+[Beyond the Hedge Creative](https://www.beyondthehedgecreative.com/4-different-types-consumers-market/) 
+I also added a 5th story because I felt this type of user is a common find in the watch world (I may or may not be one myself) - The Fantasy Shopper. 
 
 #### User 1: The Gift Shopper (Needs-Based)
 ##### Typical Characteristics: Has item or items in mind and will be searching competitors also. Budget driven. 
@@ -84,18 +81,17 @@ I also added a 5th story, the Fantasy Shopper.
 * Returning Visitor - I want to find a product I haven't seen before so I can feel good buying something unique.
 
 #### User 4 The Enthusiast (Loyal)
-##### Typical Characteristics:
+##### Typical Characteristics: Will advocate elsewhere online. Will always check your site first for products.
 ##### Purchasing Frequency: High frequency.
-* First Time Visitor - I want to be impressed by the sites overall look and feel so that I can become a loyal customer. I visit many 
-similar sites regularly so I know what I like.
-* Returning Visitor - I want to see new content and product listings as well as read blog posts about 
-the watch world so I can enjoy my hobby. I want to build a relationship with the site through purchases and good service.
+* First Time Visitor - I want to be impressed by the sites overall look and feel so that I can become a loyal customer. I visit many similar sites regularly so I know what I like.
+* Returning Visitor - I want to see new content and product listings as well as read blog posts about the watch world so I can enjoy my hobby. I want to build a relationship with the site through purchases and good service. I'm interested in a regular newsletter.
 
 #### User 5 The Fantasy Shopper
 ##### Typical Characteristics: Content consumer.
 ##### Purchasing Frequency: Infrequent.
-* First Time Visitor - I want to browse through product imagery so I can fantasise about a purchase that may never happen.
-* Returning Visitor - I want to view high quality images and consume new blog posts.
+* First Time Visitor - I want to browse through high quality imagery of products so I can fantasise about a purchase that may never happen.
+* Returning Visitor - I want to view high quality images and consume new blog posts. 
+Insert Joke - I believe the perfect number of watches in any collection can be expressed as a simple formula (n)+1. (n) being the number you currently own.
 
 
 
@@ -103,9 +99,7 @@ the watch world so I can enjoy my hobby. I want to build a relationship with the
 ## Features
 ---
 ### Existing Features
-This site is built with the aim of constantly driving users back to the shop page to drive sales. 
-The home page is essentially one large image driven navigation tool. Each section encourages the user to visit 
-another part of the site and all end with a CTA button to allow ease of maneouverability from anywhere.
+This site is built with the aim of constantly driving users back to the shop page to drive sales. The home page is essentially one large image driven navigation tool. Each section encourages the user to visit another part of the site and all end with a CTA button to allow ease of maneouverability from anywhere.
 * Bootstrap designed responsive Navbar with expanding menu section at the 'md' breakpoint.
 * Bootstrap Carousel slider with 3 images and active indicators. Implemented links on each image to direct traffic.
 * Shortened text blog post that leads users toward the blog page of the site with a CTA to read more.
@@ -138,7 +132,15 @@ Over time the site will inevitably become bulky with blog material. It would be 
 
 ## Technologies used
 ---
-
+- **HTML5:** Latest version of semantic markup language HTML used to build the structure of the site.
+- **CSS3:** Used to style HTML elements and increase UX and responsiveness overall.
+- **Bootstrap:** Used many of Bootstraps handy features including some that make use of Javascript suich as the Carousel. I read somewhere that BS can be your best friend or worst nightmare. I definitely experienced both ends of the spectrum during this project but I am happy to say we are still on talking terms. I think with more time and a deeper understanding it can be a very powerful tool to speed up the development process.
+- **Git:** Used Git to manage staging, committing and pushing versions of the project to Github as it was developed over time.
+- **Github:** Used Github to store versions of the project in it's centralised repository.
+- **Github Pages:** Used to deploy and host the website on the real internet :) 
+- **Gitpod:** IDE used to create and edit all files for the project.
+- **Balsamiq:** Used to wireframe the site. Also used to realise I bit off way more than I could chew for my first build! I drew up the mobile wireframes with the intention of coming back to do the larger screen sizes at a later point as I familiarised myself with responsive design, and hwo the grid system works etc. I left the mobile wireframes as I had them originally to show how different the end result was. I imagine this is pretty poor practice in the real world but I learned a lot by tweaking the design to my ability as I went along.
+- **FontAwesome:** CDN providing icons for use across the site.
 
 ## Testing
 ---
@@ -149,11 +151,15 @@ Over time the site will inevitably become bulky with blog material. It would be 
 
 
 ## Credits
+I believ I have covered just abouit evrything elsewhere so I just want to credit my wife Alejandra for making me bomb sandwiches in the evning while dI worked on this!
 
-### Online Resources Used
-#### A Lot of YouTube.
-* Links to any videos/channels/sites that helped me through sections I struggled with. 
+## Resources
+I dipped in and out of a lot of videos and sites for inspiration in overcoming small obstacles. I watched a decent amount of content in my spare time too without it being directly in relation to this build also. Below are links to videos/channels/sites that I found myself returning to that carried the most value.
+### YouTube
 [Academind Channel](https://www.youtube.com/watch?v=23bpce-5s8I)
-#### Sites Used for Research While Planning.
+[Drew Ryan](https://www.youtube.com/user/DrewOnCue)
+[Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q)
+### Other Sites Used 
 [Outbrain](https://www.outbrain.com/help/advertisers/why-ecommerce-site-should-have-blog/)
----
+[w3schools](https://www.w3schools.com/)
+[StackOverflow](https://stackoverflow.com/)
