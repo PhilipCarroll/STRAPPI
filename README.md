@@ -3,6 +3,23 @@ STRAPPi is a website that will eventually function as an ECommerce platform. I w
 
 For this MileStone1 project I am focusing on the layout and overall style of the static frontend portion in order to develop the skills I have acquired so far during first module of the Code Institute course.
 
+## Table of Conetents
+- [User Experience](#### User Experience Design (UXD/UX))
+    -[Strategy](#### Strategy:)
+    -[Scope](#### Scope:)
+    -[Structure](#### Structure:)
+    -[Skeleton](#### Skeleton:)
+        -[Some Examples](##### Some examples-)
+    -[Surface](#### Surface:)
+- [User Stories](### User Stories:)
+- [Features](## Features)
+    -[Existing Features](### Existing Features)
+    -[Features to Implement Later](### Features to implement at a later date.)
+- [Technologies Used](## Technologies Used:)
+- [Testing](## Testing)
+- [Development](## Development)
+- [Credits](## Credits)
+- [Resources](## Resources)
 
 ## User Experience Design (UXD/UX)
 In order to develop my plan this project I used the 5 planes of User Experience Design-
@@ -49,18 +66,25 @@ They will discover sections that will allow them to learn who we are as a brand,
 
 #### Surface:
 
-INSERT WIREFRAMES AND COLORS USED
+Please see wireframes folder. The end reult is signif
 
+I used the Rubik font from Google Fonts throughout the site with Sans-serif as the default fall back.
+
+I used [Coolors](https://coolors.co/) to create a pallete to use for this site. I must say coolors is one of the slickest sites I have come across! 
+There are three colours in use throughout the site. I made use of the rgba opacity property in some cases.
+- #14213D Oxford Blue
+- #FDB035 Bright Yellow Crayon.
+- #F5F5F5 Cultured.
 
 ### User Stories:
 * With this website I want to offer watch enthusiasts and casual shoppers a place to browse products and watch
-related content. I want to engage visitors with high quality images and turn them in to loyal customers by 
-I have decided to break my users in to 4 personas. Each persona defined will have a "First Time Visitor" and "Returning Visitor"
+related content. I want to engage visitors with high quality images and turn them in to loyal customers by offering good value products and great service.
+I have decided to break my users into 5 personas. Each persona defined will have a "First Time Visitor" and "Returning Visitor"
 story. 
 
 I researched types of consumers in order to define my personas and have loosely based Users 1-4 on the 4 types outlined here - 
 [Beyond the Hedge Creative](https://www.beyondthehedgecreative.com/4-different-types-consumers-market/) 
-I also added a 5th story because I felt this type of user is a common find in the watch world (I may or may not be one myself) - The Fantasy Shopper. 
+I also added a 5th story because I felt this type of user is a common persona in the watch world (I may or may not be one myself!) - The Fantasy Shopper. 
 
 #### User 1: The Gift Shopper (Needs-Based)
 ##### Typical Characteristics: Has item or items in mind and will be searching competitors also. Budget driven. 
@@ -77,7 +101,7 @@ I also added a 5th story because I felt this type of user is a common find in th
 #### User 3 The Impulse Buyer (Impulsive)
 ##### Typical Characteristics: Always ready to buy. 
 ##### Purchasing Frequency: Somewhat frequent.
-* First Time Visitor - I want to browse through products and content so that I can understand the company.
+* First Time Visitor - I want to browse through products with ease so I can easily see what's on offer.
 * Returning Visitor - I want to find a product I haven't seen before so I can feel good buying something unique.
 
 #### User 4 The Enthusiast (Loyal)
@@ -91,13 +115,12 @@ I also added a 5th story because I felt this type of user is a common find in th
 ##### Purchasing Frequency: Infrequent.
 * First Time Visitor - I want to browse through high quality imagery of products so I can fantasise about a purchase that may never happen.
 * Returning Visitor - I want to view high quality images and consume new blog posts. 
-Insert Joke - I believe the perfect number of watches in any collection can be expressed as a simple formula (n)+1. (n) being the number you currently own.
+Insert joke - I believe the perfect number of watches in any collection can be expressed as a simple formula (n)+1. (n) being the number you currently own :)
 
 
 
 
 ## Features
----
 ### Existing Features
 This site is built with the aim of constantly driving users back to the shop page to drive sales. The home page is essentially one large image driven navigation tool. Each section encourages the user to visit another part of the site and all end with a CTA button to allow ease of maneouverability from anywhere.
 * Bootstrap designed responsive Navbar with expanding menu section at the 'md' breakpoint.
@@ -112,26 +135,25 @@ This site is built with the aim of constantly driving users back to the shop pag
 
 
 ### Features to implement at a later date.
----
 #### The Shop Page.
 While planning this project I wireframed the shop page for mobile. I soon came to the realisation that it would require more 
 than I was capable of at the time and likely 3 additional pages I had wanted to implement 3 sections that would load from tabs at the top 
 of the page without ahving to leave that page. I'll be honest, I still don't know how to do that but I didn;t look in to it much either! 
 #### Modal Contact pop up.
-I'd liek to implement a modal pop up as a means of allowing the custome rto fill out a contact form. This woul dallow me to remove one entire page from 
-the site and make the navigation much cleaner and refined.
+I'd like to implement a modal pop up as a means of allowing the customer to fill out a contact form. This would allow me to remove one entire page from 
+the site and make the navigation cleaner and more refined.
 #### Instagram Feed.
-I think an instagram gallery/feed has several great functions. Ideally I can manage an instagram account along side the site showing off products and 
+I think an instagram gallery/feed section has several great functions. Ideally I can manage an instagram account along side the site showing off products and 
 highlighting customer 'wrist shots' which are very popular in the industry. It acts as an emotional trigger for sales and functions as another form of browsing. 
 #### Watches.
-Although this is a project I aim to use this site in the future. I'd liek to start out by wholeselling straps and accessories before eventually 
-hosting watches also once the brand becomes somewhat estabilished.
+Although this is a project site, I aim to use this site in the future. I'd like to start out by wholeselling straps and accessories before eventually 
+wholeselling watches also once the brand becomes somewhat estabilished.
 #### Blog archive.
-Over time the site will inevitably become bulky with blog material. It would be nice to implement an archive.
+Over time the site will inevitably become bulky with blog material. It would be nice to implement an archive/break off site for the blog.
+#### Improved display across screen sizes.
+I kept finding myself working away at CSS before realising I was only refreshing one screen size to see if it had worked and later finding it wasn't very good looking when resizing the viewport. I'd like to spend some time increasing the overall look of the site across devices. I think it's just OK as it is. I'd like to implement a fixed width for the main content on larger screens to keep the structural flow in tact. I felt I learned a lot from my mistakes in this area and would approach the build very differently next time having made them this time.
 
-
-## Technologies used
----
+## Technologies Used
 - **HTML5:** Latest version of semantic markup language HTML used to build the structure of the site.
 - **CSS3:** Used to style HTML elements and increase UX and responsiveness overall.
 - **Bootstrap:** Used many of Bootstraps handy features including some that make use of Javascript suich as the Carousel. I read somewhere that BS can be your best friend or worst nightmare. I definitely experienced both ends of the spectrum during this project but I am happy to say we are still on talking terms. I think with more time and a deeper understanding it can be a very powerful tool to speed up the development process.
@@ -143,15 +165,19 @@ Over time the site will inevitably become bulky with blog material. It would be 
 - **FontAwesome:** CDN providing icons for use across the site.
 
 ## Testing
----
-
+I used the W3 HTML and CSS Validators to test the code on my site. Although there were errors found it seems that they all stem from outside sources and I'll be brutally honest and say I don't know how to resolve them.
 
 ## Deployment
----
-
+1. Open Github and search the repository: 'STRAPPI'...https://github.com/PhilipCarroll/STRAPPI
+2. Open Settings tab.
+3. Open Github Pages from there. 
+4. Select Master Branch.
+5. Click Save.
+6. Use the generated link to open the deployed site.
 
 ## Credits
-I believ I have covered just abouit evrything elsewhere so I just want to credit my wife Alejandra for making me bomb sandwiches in the evning while dI worked on this!
+I took small snippets of blog articles from other sites online. 
+I believe I have covered just about everything elsewhere so I just want to credit my wife Alejandra for making me bomb sandwiches in the evening while I worked on this!
 
 ## Resources
 I dipped in and out of a lot of videos and sites for inspiration in overcoming small obstacles. I watched a decent amount of content in my spare time too without it being directly in relation to this build also. Below are links to videos/channels/sites that I found myself returning to that carried the most value.
